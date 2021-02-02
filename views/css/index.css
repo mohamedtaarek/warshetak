@@ -1,0 +1,131 @@
+.cn-button {
+  border: none;
+  background: none;
+  color: #000;
+  text-align: center;
+  font-size: 3.6em;
+  padding-bottom: 2em;
+  height: 4.5em;
+  width: 4.5em;
+  background-color: #debf10;
+  position: fixed;
+  left: 48%;
+  margin-left: -2em;
+  bottom: -2em;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 11;
+}
+.title {
+  text-decoration: underline;
+}
+.card-title {
+  text-decoration: underline;
+  color: #debf10;
+  margin-bottom: 1.5em;
+}
+.pad {
+  margin-bottom: 2em;
+}
+.card-text {
+  margin-bottom: 0.75em;
+}
+.centered {
+  text-align: center;
+}
+.card {
+  padding: 1.5em;
+  border-radius: 1.5em;
+  background-color: #3b373a;
+  text-align: center;
+}
+.cn-button:hover,
+.cn-button:active,
+.cn-button:focus {
+  color: #ffffff;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 2% 0;
+  height: 12em;
+  font-size: 1.2em;
+  border: 0;
+  background-color: #3b373a;
+  vertical-align: middle;
+}
+.navbar-brand {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  padding: 0 15% 5%;
+}
+.navbar-inverse .navbar-nav .active a,
+navbar-inverse .navbar-nav .active a:active,
+navbar-inverse .navbar-nav .active a:hover {
+  color: #fff;
+  background-color: #000;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #d5d5d5;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+.container {
+  margin: 4% auto;
+}
+footer {
+  width: 100%;
+  padding: 3%;
+  background-color: #3b373a;
+  color: #debf10;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #fff;
+}
+.fa:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+#icon {
+  max-width: 200px;
+  margin: 1% auto;
+}
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .mob {
+    margin-bottom: 4.5em;
+    padding-bottom: 4.5em;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+
+  h2 {
+    font-size: 1.9em;
+  }
+}
+
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  text-align: center;
+  top: 0;
+}
