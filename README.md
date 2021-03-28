@@ -4,8 +4,6 @@ A web system for a car-service client that aims to help the client to request se
 
 ## Contents
 
----
-
 - [Usage](#Usage)
 - [Installation](#Installation)
 - [Dependencies](#Dependencies)
@@ -14,13 +12,9 @@ A web system for a car-service client that aims to help the client to request se
 
 ## Usage
 
----
-
 The system recieves a request from the interface that the client deal with using RESTful API and sends the data provided by the client to the admin through email.
 
 ## Installation
-
----
 
 - Install dependencies
 
@@ -49,19 +43,13 @@ module.exports = email;
 
 ## Dependencies
 
----
-
 - [nodemailer version 6.4.17](https://github.com/nodemailer/nodemailer)
 - [body-parser version 1.19.0](https://www.npmjs.com/package/body-parser)
 
 ## Support
 
----
-
 To submit an issue you can add an issue at the [Repository](https://github.com/mohamedtaarek/warshetak/issues) or send an [email](mailto:mohamed.taarek22@gmail.com)
 
 ## Roadmap
-
----
 
 It is planned to create an admin internal system to help the adminstrator to handle orders either online requests or workshop clients
