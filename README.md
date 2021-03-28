@@ -29,7 +29,19 @@ The system recieves a request from the interface that the client deal with using
     $ npm install
 ```
 
+- create your config.js file and place it in the main folder of the directory it should be something like theat:
+
+```javascript
+const email = {
+  host: "your hosting localhost in case of hosting localy",
+  mail: "your email",
+  pass: "your password",
+};
+module.exports = email;
+```
+
 - run the project
+- In case of using gmail you should allow on weak security apps form [settings](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi09tXm3NLvAhXxSBUIHYaCCkkQFjAEegQIAhAD&url=https%3A%2F%2Fmyaccount.google.com%2Flesssecureapps&usg=AOvVaw3FH1O5TwzTEB9B9yhEUsI7)
 
 ```bash
     $ npm test
